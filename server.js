@@ -1,0 +1,29 @@
+const express = require('express');
+const nunjucks = require('nunjucks');
+
+const server = express();
+const  conteudos = require("./data");
+
+server.use(express.static('public'));
+
+server.set('view engine', 'njk');
+
+nunjucks.configure("views", {
+    express: server,
+    autoescape: false, //interpreta link html
+    noCache:true
+});
+
+
+server.get('/', function(req, res){
+
+    return res.render('index', {items: conteudos});
+;})
+
+
+
+
+
+server.listen('5001', function(){
+    console.log('Server is runing...');
+})

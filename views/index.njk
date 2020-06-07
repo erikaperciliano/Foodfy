@@ -1,0 +1,28 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Home</title>
+{% endblock %}
+
+{% block content %}
+
+    <div id="wrapper">
+        <h1>The best recipes</h1>
+        <p>Learn how to build the best dishes
+        with recipes created by professionals
+        Worldwide.</p>
+        <img src="/img/chef.png" alt="chef">
+    </div>
+    <section>
+        <h2>Most accessed</h2>
+        {%for conteudo in  items%}
+            <div id="section">
+                <aside class="{{conteudo.id}}">
+                    <img src="{{conteudo.image}}" alt="{{conteudo.title}}">
+                    <p>{{conteudo.title}}</p>
+                    <p>{{conteudo.author}}</p>
+                </aside> 
+            </div>
+        {% endfor %}
+     </section>
+{% endblock %}

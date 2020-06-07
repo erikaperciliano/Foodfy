@@ -1,0 +1,257 @@
+@import'https://fonts.google.com/specimen/Roboto?query=roboto&selection.family=Roboto';
+@import 'https://fonts.google.com/specimen/Roboto?query=roboto&selection.family=Roboto:wght@400;700';
+
+:root{
+    --color-black:#111;
+    --color-black-plus:#000;
+    --color-gray:#777777;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.links{
+    margin-top: 36.1px;
+    margin-left: 231px;
+    width: 90.6px;
+    height: 26.9px;
+    opacity: 100%; 
+    color: var(--color-black);
+}
+
+.links a {
+    top: 38px;
+    left: 444px;
+    width: 42px;
+    height: 19px;
+    opacity: 100%;
+    color: var(--color-black);
+    letter-spacing: 0px 19px;
+    font-size: 16px;
+    font-family: Roboto-Regular;
+    text-decoration: none;
+    position: absolute;
+}
+
+.links a + a{
+    left: 516px;
+    width: 62px;
+}
+
+#wrapper{
+    margin-top: 93px;
+    margin-left: 230px;
+    width: 940px;
+    height: 366px;
+    opacity: 100%;
+    background: #FBDFDB;
+    border-radius: 30px;
+}
+
+#wrapper h1{
+    font-family: Roboto-Bold;
+    top: 210px;
+    left: 290px;
+    width: 305px;
+    height: 38px;
+    opacity: 100%;
+    font-size: 32px;
+    letter-spacing: 0 38px;
+    position: absolute;
+}
+
+#wrapper p{
+    font-family: Roboto-Regular;
+    top: 258px;
+    left: 290px;
+    width: 316px;
+    height: 84px;
+    opacity: 70%;
+    font-size: 18px;
+    color:var(--color-black-plus);
+    font-size: 18px;
+    letter-spacing: 0 28px;
+    position: absolute;
+}
+
+#wrapper img{
+    top: 159px;
+    left: 859px;
+    width: 216px;
+    height: 300px;
+    position: absolute;
+}
+
+section h2 {
+    font-family: Roboto-Bold;
+    font-family: Roboto-Bold;
+    top: 509px;
+    left: 230px;
+    position: absolute;
+    width: 174px;
+    height: 28px;
+    opacity: 100%;
+    font-size: 24px;
+    padding-top: 50px;
+}
+
+#section {
+    position: absolute;
+    top:57px;
+}
+
+.primeiro img,
+.segundo img,
+.terceiro img, 
+.quarto img,
+.quinto img, 
+.sexto img {
+    position: absolute;
+    left: 230px;
+    top: 557px;
+    width: 300px;
+    height: 140px;
+    border-radius: 15px;
+}
+
+.primeiro p,
+.segundo p,
+.terceiro p,
+.quarto p,
+.quinto p,
+.sexto p {
+    font-family: Roboto-Regular;
+    top: 717px;
+    left: 230px;
+    width: 156px;
+    height: 21px;
+    opacity: 100%;
+    color: var(--color-black);
+    font-size: 18px;
+    letter-spacing: 0 21px;
+    position: absolute;
+}
+
+.primeiro p + p,
+.segundo p + p,
+.terceiro p + p,
+.quarto p + p,
+.quinto p + p, 
+.sexto p + p {
+    font-family: Roboto-Regular;
+    top: 743px;
+    left: 230px;
+    width: 103px;
+    height: 16px;
+    opacity: 100%;
+    color: var(--color-gray);
+    font-size: 14px;
+    letter-spacing: 0 16px;
+    position: absolute;
+}
+
+.segundo img {
+    left: 550px;
+}
+
+.segundo p {
+    left: 550px;
+    width: 136px;
+}
+
+.segundo p + p{
+    left: 550px;
+    width: 108px;
+}
+
+.terceiro img {
+    left: 870px;
+}
+
+.terceiro p {
+    left: 870px;
+    width: 249px;
+}
+
+.terceiro p + p{
+    left: 870px;
+    width: 98px;
+}
+
+.quarto img {
+    top:789px;
+    left: 230px;
+}
+
+.quarto p {
+    top:949px;
+    left: 230px;
+    width: 187px;
+}
+
+.quarto p + p{
+    top:975px;
+    left: 230px;
+    width: 109px;
+}
+
+.quinto img {
+    top:789px;
+    left: 550px;
+}
+
+.quinto p {
+    top:949px;
+    left: 550px;
+    width: 170px;
+}
+
+.quinto p + p{
+    top:975px;
+    left: 550px;
+    width: 118px;
+}
+
+.sexto img {
+    top:789px;
+    left: 870px;
+}
+
+.sexto p {
+    top:949px;
+    left: 870px;
+    width: 249px;
+}
+
+.sexto p + p{
+    top:975px;
+    left:870px;
+    width: 114px;
+}
+
+footer {
+    background: #EEEEEE;
+    opacity: 100%;
+    margin-top: 580px;
+    /*top:1082px;*/
+    height: 62px;
+    width: 1400px;
+    /*position: absolute;*/
+}
+
+footer p {
+    font-family: Roboto-Regular;
+    color:#999999; 
+    margin-top: 1064;
+    margin-left: 567px;
+    width: 267px;
+    height: 32px;
+    opacity: 100%;
+    font-size: 14px;
+    letter-spacing: 0px 16px;
+    text-align: center;
+    padding-top: 23px;
+}
