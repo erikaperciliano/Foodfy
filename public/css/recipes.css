@@ -1,0 +1,344 @@
+@import'https://fonts.google.com/specimen/Roboto?query=roboto&selection.family=Roboto';
+@import 'https://fonts.google.com/specimen/Roboto?query=roboto&selection.family=Roboto:wght@400;700';
+
+:root{
+    --color-black:#111;
+    --color-black-plus:#000;
+    --color-gray:#777777;
+    --color-grayLess:#4444;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.links{
+    margin-top: 36.1px;
+    margin-left: 231px;
+    width: 90.6px;
+    height: 26.9px;
+    opacity: 100%; 
+    color: var(--color-black);
+}
+
+.links a {
+    top: 38px;
+    left: 444px;
+    width: 42px;
+    height: 19px;
+    opacity: 100%;
+    color: var(--color-black);
+    letter-spacing: 0px 19px;
+    font-size: 16px;
+    font-family: Roboto-Regular;
+    text-decoration: none;
+    position: absolute;
+}
+
+.links a + a{
+    left: 516px;
+    width: 62px;
+}
+
+.setimo,
+.oitavo,  
+.nono,
+.decimo,
+.decimo_primeiro,
+.decimo_segundo {
+    display: block;
+} 
+
+#recipes .primeiro img,
+#recipes .segundo img,
+#recipes .terceiro img,
+#recipes .quarto img,
+#recipes .quinto img,
+#recipes .sexto img,
+#recipes .setimo img,
+#recipes .oitavo img,
+#recipes .nono img,
+#recipes .decimo img,
+#recipes .decimo_primeiro img,
+#recipes .decimo_segundo img{
+    position: absolute;
+    left: 230px;
+    top: 113px;
+    width: 300px;
+    height: 140px;
+    border-radius: 15px;
+}
+
+#recipes .segundo img,
+#recipes .quinto img,
+#recipes .oitavo img,
+#recipes .decimo_primeiro img {
+    left: 550px;
+}
+
+#recipes .terceiro img,
+#recipes .sexto img,
+#recipes .nono img,
+#recipes .decimo_segundo img {
+    left: 870px;
+}
+
+#recipes .quarto img,
+#recipes .quinto img,
+#recipes .sexto img
+ {
+    top:345px;
+}
+#recipes .setimo img,
+#recipes .oitavo img,
+#recipes .nono img {
+    top: 577px;
+}
+
+#recipes .decimo img,
+#recipes .decimo_primeiro img,
+#recipes .decimo_segundo img{
+    top: 809px;
+}
+
+
+#recipes .decimo img,
+#recipes .decimo_primeiro img,
+#recipes .decimo_segundo img{
+    top: 809px;
+}
+
+#recipes .primeiro p, 
+#recipes .segundo p,
+#recipes .terceiro p,
+#recipes .setimo p,
+#recipes .terceiro p,
+#recipes .quarto p,
+#recipes .decimo p {
+    font-family: Roboto-Regular;
+    top: 273px;
+    left: 230px;
+    width: 156px;
+    height: 21px;
+    opacity: 100%;
+    color: var(--color-black);
+    font-size: 18px;
+    letter-spacing: 0 21px;
+    position: absolute;
+}
+
+#recipes .segundo p,
+#recipes .quinto p{
+    left: 550px;
+    width: 136px;
+}
+
+#recipes .terceiro p {
+    left: 870px;
+    width: 148px;
+}
+
+#recipes .quarto p,
+#recipes .sexto p {
+    top:505px;
+    width: 187px;
+}
+
+#recipes .quarto p {
+    left: 230px;
+    width: 187px;
+}
+
+#recipes .quinto p {
+    top: 505px;
+    position: absolute;
+}
+
+#recipes .sexto p {
+    left: 870px;
+    width: 249px;
+    position: absolute;
+}
+#recipes .setimo p,
+#recipes .oitavo p,
+#recipes .nono p {
+    top: 737px;
+    position: absolute;
+    width: 156px;
+}
+
+#recipes .oitavo p {
+    left: 550px;
+    position: absolute;
+    width: 170px;
+}
+
+#recipes .nono p {
+    left: 870px;
+    position: absolute;
+    width: 249px;
+}
+
+#recipes .decimo p,
+#recipes .decimo_primeiro p,
+#recipes .decimo_segundo p {
+    left:230px;
+    top: 969px;
+    position: absolute;
+    width: 187px;
+} 
+
+#recipes .decimo_primeiro p{
+    left: 550px;
+    width: 170px;
+}
+
+#recipes .decimo_segundo p{
+    left: 870px;
+    width: 249px;
+}
+
+#recipes .segundo p + p  {
+    left:550px;
+    width: 170px;
+}
+
+
+#recipes .primeiro p + p,
+#recipes .segundo p + p,
+#recipes .terceiro p + p {
+    font-family: Roboto-Regular;
+    top: 299px;
+    left: 230px;
+    width: 103px;
+    height: 16px;
+    opacity: 100%;
+    color: var(--color-gray);
+    font-size: 14px;
+    letter-spacing: 0 16px;
+    position: absolute;
+}
+
+#recipes .segundo p + p {
+    left: 550px;
+    width: 108px;
+}
+#recipes .terceiro p + p {
+    left: 870px;
+    width: 98px;
+}
+
+#recipes .quarto p + p,
+#recipes .quinto p + p,
+#recipes .sexto p + p {
+    font-family: Roboto-Regular;
+    top: 531px;
+    left: 230px;
+    width: 109px;
+    height: 16px;
+    opacity: 100%;
+    color: var(--color-gray);
+    font-size: 14px;
+    letter-spacing: 0 16px;
+    position: absolute;
+}
+
+#recipes .quinto p + p {
+    left: 550px;
+    width: 118px;
+}
+
+
+#recipes .sexto p + p {
+    left: 870px;
+    width: 114px;
+}
+
+#recipes .setimo p + p,
+#recipes .oitavo p + p,
+#recipes .nono p + p{
+    font-family: Roboto-Regular;
+    left: 230px;
+    top: 763px;
+    height: 16px;
+    opacity: 100%;
+    color: var(--color-gray);
+    font-size: 14px;
+    letter-spacing: 0 16px;
+    position: absolute;
+}
+
+#recipes .setimo p + p {
+
+    width: 98px; 
+
+}
+
+#recipes .oitavo p + p {
+    left: 550px;
+    width: 108px;
+}
+
+#recipes .nono p + p {
+    left: 870px;
+    width: 98px;
+}
+
+#recipes .decimo p + p,
+#recipes .decimo_primeiro p + p,
+#recipes .decimo_segundo p + p{
+    font-family: Roboto-Regular;
+    left: 230px;
+    top: 995px;
+    height: 16px;
+    opacity: 100%;
+    color: var(--color-gray);
+    font-size: 14px;
+    letter-spacing: 0 16px;
+    position: absolute;
+    width: 109px;
+}
+
+#recipes .decimo_primeiro p + p {
+    width: 118px;
+    left: 550px;
+}
+
+#recipes .decimo_segundo p + p {
+    width: 114px;
+    left: 870px;
+}
+
+footer {
+    background: #EEEEEE;
+    opacity: 100%;
+    margin-top: 1031px;
+    /*top:1082px;*/
+    height: 62px;
+    width: 1400px;
+    /*position: absolute;*/
+}
+
+footer p {
+    font-family: Roboto-Regular;
+    color:#999999; 
+    margin-top: 1064;
+    margin-left: 567px;
+    width: 267px;
+    height: 32px;
+    opacity: 100%;
+    font-size: 14px;
+    letter-spacing: 0px 16px;
+    text-align: center;
+    padding-top: 23px;
+}

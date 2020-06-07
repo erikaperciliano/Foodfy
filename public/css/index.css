@@ -5,12 +5,17 @@
     --color-black:#111;
     --color-black-plus:#000;
     --color-gray:#777777;
+    --color-grayLess:#4444;
 }
 
 *{
     margin: 0;
     padding: 0;
     border: 0;
+}
+
+.logo{
+    cursor: pointer;
 }
 
 .links{
@@ -39,6 +44,10 @@
 .links a + a{
     left: 516px;
     width: 62px;
+}
+
+.about_active{
+    font-family: Roboto-Bold;
 }
 
 #wrapper{
@@ -85,22 +94,9 @@
     position: absolute;
 }
 
-section h2 {
-    font-family: Roboto-Bold;
-    font-family: Roboto-Bold;
-    top: 509px;
-    left: 230px;
-    position: absolute;
-    width: 174px;
-    height: 28px;
-    opacity: 100%;
-    font-size: 24px;
-    padding-top: 50px;
-}
-
 #section {
     position: absolute;
-    top:57px;
+    top:5px;
 }
 
 .primeiro img,
@@ -232,10 +228,19 @@ section h2 {
     width: 114px;
 }
 
+.setimo,
+.oitavo,  
+.nono,
+.decimo,
+.decimo_primeiro,
+.decimo_segundo {
+    display: none;
+}  
+
 footer {
     background: #EEEEEE;
     opacity: 100%;
-    margin-top: 580px;
+    margin-top: 1031px;
     /*top:1082px;*/
     height: 62px;
     width: 1400px;
@@ -255,3 +260,4 @@ footer p {
     text-align: center;
     padding-top: 23px;
 }
+

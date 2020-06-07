@@ -4,14 +4,14 @@
             <title>Home</title>
         {% endblock %}
 
-        <link rel="stylesheet" href="/css/styles.css">
+       
     </head>
     <body>
         <header>
             <nav class="links">
-                <img src="/img/logo.png" alt="logo">
-                <a href="/">About</a>
-                <a href="/portfolio">Recipes</a>
+                <img src="/img/logo.png" alt="logo" class="logo"><!--colocar o link da home aqui usando js-->
+                <a href="/about" class="about">About</a>
+                <a href="/recipes" class="recipes">Recipes</a>
             </nav>        
         </header>
         {% block content %}
@@ -23,5 +23,6 @@
                 <p>All rights reserved, Foodfy recipes</p>
             </footer>
         {% endblock %}
+        <script src="/script.js"></script>
     </body>
 

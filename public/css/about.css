@@ -1,0 +1,125 @@
+@import'https://fonts.google.com/specimen/Roboto?query=roboto&selection.family=Roboto';
+@import 'https://fonts.google.com/specimen/Roboto?query=roboto&selection.family=Roboto:wght@400;700';
+
+:root{
+    --color-black:#111;
+    --color-black-plus:#000;
+    --color-gray:#777777;
+    --color-grayLess:#4444;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.links{
+    margin-top: 36.1px;
+    margin-left: 231px;
+    width: 90.6px;
+    height: 26.9px;
+    opacity: 100%; 
+    color: var(--color-black);
+}
+
+.links a {
+    top: 38px;
+    left: 444px;
+    width: 42px;
+    height: 19px;
+    opacity: 100%;
+    color: var(--color-black);
+    letter-spacing: 0px 19px;
+    font-size: 16px;
+    font-family: Roboto-Regular;
+    text-decoration: none;
+    position: absolute;
+}
+
+.links a + a{
+    left: 516px;
+    width: 62px;
+}
+
+
+#header h1{
+    font-family: Roboto-Bold;
+    font-size: 24px;
+    top: 113px;
+    left: 230px;
+    width: 164px;
+    height: 28px;
+    color: var(--color-black);
+    opacity: 100%;
+    position: absolute;
+    letter-spacing: 0 28px;
+}
+
+p.first_paragraph,
+p.second_paragraph,
+p.third_paragraph {
+    font-family: Roboto-Regular;
+    top:161px;
+    left: 230px;
+    width: 940px;
+    height: 280px;
+    opacity: 100%;
+    color: var(--color-gray);
+    font-size: 18px;
+    letter-spacing: 0 28px;
+    position: absolute;
+}
+
+h2.first_class,
+h2.last_class {
+    font-family: Roboto-Bold;
+    top:471px;
+    left: 230px;
+    width: 202px;
+    height: 24px;
+    opacity: 100%;
+    color: var(--color-black);
+    letter-spacing: 0 24px;
+    position: absolute;
+}
+
+p.second_paragraph{
+    top: 515px;
+}
+
+h2.last_class {
+    top: 825px;
+}
+
+p.third_paragraph{
+    top: 869px;
+}
+
+footer {
+    background: #EEEEEE;
+    opacity: 100%;
+    margin-top: 1031px;
+    /*top:1082px;*/
+    height: 62px;
+    width: 1400px;
+    /*position: absolute;*/
+}
+
+footer p {
+    font-family: Roboto-Regular;
+    color:#999999; 
+    margin-top: 1064;
+    margin-left: 567px;
+    width: 267px;
+    height: 32px;
+    opacity: 100%;
+    font-size: 14px;
+    letter-spacing: 0px 16px;
+    text-align: center;
+    padding-top: 23px;
+}
