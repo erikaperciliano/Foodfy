@@ -77,6 +77,7 @@
     width: 300px;
     height: 140px;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 #recipes .segundo img,
@@ -323,17 +324,16 @@ footer {
     background: #EEEEEE;
     opacity: 100%;
     margin-top: 1031px;
-    /*top:1082px;*/
     height: 62px;
-    width: 1400px;
-    /*position: absolute;*/
+    width: 1500px;
+    position: absolute;
 }
 
 footer p {
     font-family: Roboto-Regular;
     color:#999999; 
     margin-top: 1064;
-    margin-left: 567px;
+    margin-left: 667px;
     width: 267px;
     height: 32px;
     opacity: 100%;
@@ -341,4 +341,79 @@ footer p {
     letter-spacing: 0px 16px;
     text-align: center;
     padding-top: 23px;
+}
+
+/* === DETAILS RECIPES === */
+
+#details img {
+    top:113px;
+    left: 230px;
+    height: 280px;
+    width: 940px;
+    opacity: 100%;
+    border-radius: 15px;
+    position: absolute;
+}
+
+#details h1 {
+    font-family:Roboto-Bold;
+    top:443px;
+    left: 541px;
+    width: 618px;
+    height: 42px;
+    color: var(--color-black);
+    opacity: 100%;
+    font-size: 36px;
+    letter-spacing: 0px 42px;
+    position: absolute;
+}
+
+#details  p {
+    font-family:Roboto-Regular;
+    font-size: 20px;
+    top: 489px;
+    left: 627px;
+    width: 147px;
+    height: 24px;
+    color: var(--color-gray);
+    opacity: 100%;
+    letter-spacing: 0px 24px;
+    position: absolute;
+}
+
+.ingredients {
+    top: 563px;
+    left: 230px;
+    width: 136px;
+    height: 28px;
+    color: var(--color-black);
+    font-size: 24px;
+    opacity: 100%;
+    letter-spacing: 0px 28px;
+    position: absolute;
+}
+
+p.other  {
+    top: 574px;
+    left: 347px;
+    width: 61px;
+    height: 14px;
+    color: #999;
+    opacity: 100%;
+    font-size: 12px;
+    letter-spacing:  0px 14px;
+    position: absolute;
+}
+
+ul  {
+    font-family: Roboto-Regular;
+    color: #444;
+    opacity: 100%;
+    font-size: 18px;
+    top: 611px;
+    left: 230px;
+    width: 940px;
+    height: 196px;
+    letter-spacing: 0px 28px;
+    position: absolute;
 }

@@ -9,9 +9,10 @@
     <section id="recipes">
         {%for conteudo in  items%}
                 <aside class="{{conteudo.id}}">
-                    <img src="{{conteudo.image}}" alt="{{conteudo.title}}">
+                    <img src="{{conteudo.image}}" alt="{{conteudo.title}}" class='card'>
                     <p>{{conteudo.title}}</p>
                     <p>{{conteudo.author}}</p>
+
                 </aside> 
         {% endfor %}
      </section>

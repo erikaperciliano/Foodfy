@@ -6,6 +6,7 @@ const  conteudos = require("./data");
 
 
 
+
 server.use(express.static('public'));
 
 server.set('view engine', 'njk');
@@ -32,6 +33,10 @@ server.get('/recipes', function(req, res){
     return res.render("recipes", {items: conteudos});
 })
 
+server.get('/details/:index', function(req, res){
+    const recipeIndex = req.params.index;
+    return res.render('details', {items: conteudos[recipeIndex]})
+})
 
 
 
