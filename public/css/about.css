@@ -103,20 +103,20 @@ p.third_paragraph{
 footer {
     background: #EEEEEE;
     opacity: 100%;
-    margin-top: 1031px;
+    margin-top: 1215px;
     /*top:1082px;*/
     height: 62px;
-    width: 1500px;
+    width: 1400px;
     /*position: absolute;*/
 }
 
 footer p {
     font-family: Roboto-Regular;
     color:#999999; 
-    margin-top: 1064;
-    margin-left: 667px;
+    margin-top: 1238px;
+    margin-left: 567px;
     width: 267px;
-    height: 32px;
+    height: 16px;
     opacity: 100%;
     font-size: 14px;
     letter-spacing: 0px 16px;

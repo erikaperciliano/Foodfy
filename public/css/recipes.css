@@ -321,26 +321,32 @@
 }
 
 footer {
-    background: #EEEEEE;
-    opacity: 100%;
-    margin-top: 1031px;
+    top: 1425px;
+    /*top: 1215px*/;
+    width: 1400px;
+    background: #eee;
     height: 62px;
-    width: 1500px;
+    opacity: 100%;
     position: absolute;
+    /*background: #EEEEEE;
+    opacity: 100%;
+    margin-top: 1215px;
+    /*top:1082px;//
+    height: 72px;
+    width: 1400px;
+    /*position: absolute; //*/
 }
 
 footer p {
     font-family: Roboto-Regular;
-    color:#999999; 
-    margin-top: 1064;
-    margin-left: 667px;
-    width: 267px;
-    height: 32px;
-    opacity: 100%;
     font-size: 14px;
-    letter-spacing: 0px 16px;
-    text-align: center;
+    top: 1238px;
+    padding-left: 567px !important;
     padding-top: 23px;
+    width: 267px;
+    height: 16px;
+    color: #999;
+    opacity: 100%;
 }
 
 /* === DETAILS RECIPES === */
@@ -393,16 +399,18 @@ footer p {
     position: absolute;
 }
 
-p.other  {
-    top: 574px;
-    left: 347px;
-    width: 61px;
-    height: 14px;
-    color: #999;
-    opacity: 100%;
-    font-size: 12px;
-    letter-spacing:  0px 14px;
-    position: absolute;
+.other {
+    top: 574px !important;
+    left: 347px !important;
+    width: 61px !important;
+    height: 14px !important;
+    color: #999 !important;
+    opacity: 100% !important;
+    font-size: 12px !important;
+    letter-spacing:  0px 14px !important;
+    position: absolute !important;
+    padding-left: 8px;
+    cursor: pointer !important;
 }
 
 ul  {
@@ -416,4 +424,273 @@ ul  {
     height: 196px;
     letter-spacing: 0px 28px;
     position: absolute;
+}
+
+.praparation,
+.praparationSegundo,
+.praparationTerceiro,
+.praparationQuarto,
+.praparationQuinto,
+.praparationSexto {
+    font-family: Roboto-Bold !important;
+    color: var(--color-black) !important;
+    opacity: 100% !important;
+    top:846px !important;
+    left: 210px !important;
+    padding-top: 39px !important;
+    width: 184px !important;
+    height: 28px !important;
+    font-size: 24px !important;
+    letter-spacing: 0px 28px !important;
+    position: absolute !important;
+}
+
+.hidePreparation,
+.hidePreparationSegundo,
+.hidePreparationTerceiro,
+.hidePreparationQuarto,
+.hidePreparationQuinto,
+.hidePreparationSexto {
+    top: 894px !important;
+    left: 336px !important;
+    width: 57px !important;
+    height: 14px !important;
+    color: #999 !important;
+    opacity: 100% !important;
+    font-size: 12px !important;
+    letter-spacing:  0px 14px !important;
+    position: absolute !important;
+    padding-left: 8px;
+    cursor: pointer !important;
+}
+
+.praparationSegundo {
+    top: 1090px !important;
+}
+
+.praparationTerceiro {
+    top: 750px !important;
+}
+
+.praparationQuarto {
+    top: 800px !important;
+}
+
+.praparationQuinto {
+    top: 960px !important;
+}
+
+.praparationSexto {
+    top: 920px !important;
+}
+
+.hidePreparationSegundo {
+    top: 1139px !important
+}
+
+.hidePreparationTerceiro {
+    top: 800px !important;
+}
+
+.hidePreparationQuarto {
+    top: 850px !important;
+}
+
+.hidePreparationQuinto {
+    top: 1010px !important;
+}
+
+.hidePreparationSexto {
+    top: 971px !important;
+}
+
+.detailsPreparation{
+    top: 900px !important;
+    padding-top: 25px;
+    font-size: 18px !important;
+    left: 210px !important;
+    width: 984px !important;
+    height: 28px !important;
+    color: var(--color-black) !important;
+    opacity: 100% !important;
+}
+
+.preparationPrimeiro,
+.preparationSegundo,
+.preparationTerceiro,
+.preparationQuarto,
+.preparationQuinto,
+.preparationSexto{
+    top: 920px !important;
+    left: 210px !important;
+    width: 940px !important;
+    font-size: 18px !important;
+    height: 196px !important;
+    color: #444 !important;
+    opacity: 100% !important;
+}
+
+.preparationSegundo {
+    top: 1180px !important;
+}
+
+.preparationTerceiro {
+    top: 750px !important;
+}
+
+.preparationQuarto {
+    top: 870px !important;
+}
+
+.preparationQuinto {
+    top: 1030px !important;
+    padding-top: 12px;
+}
+
+.preparationSexto {
+    top: 1000px !important;
+}
+
+.information,
+.informationSegundo,
+.informationTerceiro,
+.informationQuarto {
+    font-family: Roboto-Bold !important;
+    font-size: 24px !important;
+    top: 991px !important;
+    left: 210px !important;
+    padding-top: 47px !important;
+    height: 28px !important;
+    opacity: 100% !important;
+    color: var(--color-black) !important;
+    letter-spacing: 0px 28px !important;
+}
+.informationPrimeiro {
+    font-size: Roboto-Regular !important;
+    font-size: 18px !important;
+    padding-top: 100px !important;
+    top: 969px !important;
+    left: 210px !important;
+    width: 940px !important;
+    height: 196px !important;
+    color: #444 !important;
+    opacity: 100% !important;
+}
+
+.informationSegundo {
+    top: 1240px !important;
+}
+
+.informationTerceiro,
+.informationQuarto,
+.informationQuinto,
+.informationSexto {
+    font-family: Roboto-Bold !important;
+    font-size: 24px !important;
+    top: 860px !important;
+    left: 210px !important;
+    padding-top: 47px !important;
+    height: 28px !important;
+    opacity: 100% !important;
+    color: var(--color-black) !important;
+}
+
+.informationQuarto {
+    top: 900px !important;
+}
+
+.informationQuinto {
+    top: 1090px !important;
+}
+
+.informationSexto{
+    top: 1060px !important;
+}
+
+.hideInformation,
+.hideInformationSegundo,
+.hideInformationTerceiro,
+.hideInformationQuarto,
+.hideInformationQuinto,
+.hideInformationSexto {
+    font-family: Roboto-Bold !important;
+    top: 1048px !important;
+    left: 461px !important;
+    width: 61px !important;
+    height: 14px !important;
+    color: #999 !important;
+    font-size: 12px !important;
+    opacity: 100% !important;
+}
+
+.hideInformationSegundo {
+    top: 1298px !important;
+}
+
+.hideInformationTerceiro {
+    top: 920px !important;
+}
+
+.hideInformationQuarto  {
+    top: 957px !important;
+}
+
+.hideInformationQuinto {
+    top: 1150px !important;
+}
+
+.hideInformationSexto {
+    top: 1117px !important;
+}
+
+.informationSegundoP {
+    top: 1330px !important;
+    width: 940px !important;
+    left: 210px !important;
+    color: #444 !important;
+    opacity: 100% !important;
+    font-size: 18px !important;
+}
+
+.preparationTerceiroP {
+    top: 830px !important;
+    width: 940px !important;
+    left: 210px !important;
+    color: #444 !important;
+    opacity: 100% !important;
+    font-size: 18px !important;
+    height: 196px;
+}
+
+.TerceiroP,
+.QuartoP,
+.QuintoP,
+.SextoP {
+    font-family: Roboto-Regular;
+    width: 940px !important;
+    color: #444 !important;
+    opacity: 100% !important;
+    font-size: 18px !important;
+    top: 950px !important;
+    left: 210px !important;
+}
+   
+.QuartoP {
+    top: 980px !important;
+}
+
+.QuintoP {
+    top: 1180px !important;
+}
+
+.SextoP {
+    top: 1140px !important;
+}
+
+.remove {
+    display: none;
+}
+
+.show {
+    display: block;
 }
