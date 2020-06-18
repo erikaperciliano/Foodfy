@@ -15,12 +15,24 @@
                     <p class='other'>HIDE</p>
                     
                     <ul class='details'>
-                    {%for recipe in items.ingredients%}
-                        <li>{{recipe}}<br><br></li>
-                    {%endfor%}
+                        {%for recipe in items.ingredients%}
+                            <li>{{recipe}}</li>
+                        {%endfor%}
                     </ul>
-                </aside>    
-                {%if items.id === 'primeiro'%}
+
+                    <h1>Method of Preparation</h1>
+                    <p class='otherSecond'>HIDE</p>
+                    <ul class='detailsSecond'>
+                        {%for recipe in items.preparation%}
+                            <li>{{recipe}}</li>
+                        {%endfor%}
+                    </ul>
+
+                    <h1 class='last'>Additional Information</h1>
+                    <p class='information'>HIDE</p>
+                    <p class='detailsInformation'>{{items.information}}</p>
+                </aside> 
+                <!--{%if items.id === 'primeiro'%}
                     <h1 class="praparation">Preparation</h1>   
                     <p class='hidePreparation'>HIDE</p>
                     <p class='preparationPrimeiro'>{{items.preparation}}<br><br></p>
@@ -127,7 +139,7 @@
                     <h1 class="informationSexto">Additional Information</h1>   
                     <p class='hideInformationSexto'>HIDE</p>
                     <p class='SextoP'>{{items.information}}<br><br></p>
-                {%endif%} 
+                {%endif%} -->
                 <!--<p class="detailsPreparation">{{items.preparation}}</p>-->
      </section>
 {% endblock %}

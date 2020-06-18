@@ -1,8 +1,6 @@
 const logo = document.querySelector('.logo');
 const about =  document.querySelector('.about');
 
-const hidePrimeiro = document.querySelector('.other');
-const ul = document.querySelector('.details');
 
 logo.addEventListener('click', function(){
     window.location.href='/';
@@ -17,24 +15,45 @@ for (let i = 0; i < receitas.length; i++) {
     })
 }
 
-hidePrimeiro.addEventListener('click', function(){
-    //alert('Funcionou!');
-    ul.classList.add('remove');
-    hidePrimeiro.innerHTML = "SHOW";
+const other = document.querySelector('.other');
+const details = document.querySelector('.details');
+
+
+other.addEventListener('click', function(){
+    if(other.innerHTML === 'HIDE'){
+        details.classList.add('remove');
+        other.innerHTML = "SHOW";
+    }else {
+        details.classList.remove('remove');
+        other.innerHTML = "HIDE";
+    }
+   
 })
 
-hidePrimeiro.addEventListener('click', function(){
-    ul.classList.remove('remove');
+const otherSecond = document.querySelector('.otherSecond');
+const detailsSecond = document.querySelector('.detailsSecond');
+
+otherSecond.addEventListener('click', function(){
+    if(otherSecond.innerHTML === 'HIDE'){
+        detailsSecond.classList.add('remove');
+        otherSecond.innerHTML = "SHOW";
+    }else {
+        detailsSecond.classList.remove('remove');
+        otherSecond.innerHTML = "HIDE";
+    }
+   
 })
 
+const information = document.querySelector('.information');
+const detailsInformation = document.querySelector('.detailsInformation');
 
-
-/*
-    VERIFICAR
-about.addEventListener('click', function(){
-    about.classList.add('active');
-})*/
-
-
-
-
+information.addEventListener('click', function(){
+    if(information.innerHTML === 'HIDE'){
+        detailsInformation.classList.add('remove');
+        information.innerHTML = "SHOW";
+    }else {
+        detailsInformation.classList.remove('remove');
+        information.innerHTML = "HIDE";
+    }
+   
+})
