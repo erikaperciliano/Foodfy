@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+    <head>
+        {% block head %}
+            <title>Admin</title>
+        {% endblock %}
+
+       
+    </head>
+    <body>
+        <header>
+            <nav class="links">
+                <img src="/img/logoAdmin.png" alt="logo" class="logo"><!--colocar o link da home aqui usando js-->
+            </nav>        
+        </header>
+        {% block content %}
+
+        {% endblock %}
+
+        {% block footer %}
+            <footer>
+                <p>All rights reserved, Foodfy recipes</p>
+            </footer>
+        {% endblock %}
+        <script src="/script.js"></script>
+    </body>
+
