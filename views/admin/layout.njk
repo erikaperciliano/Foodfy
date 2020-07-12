@@ -2,16 +2,19 @@
     <head>
         {% block head %}
             <title>Admin</title>
+            
         {% endblock %}
 
        
     </head>
     <body>
         <header>
-            <nav class="links">
-                <img src="/img/logoAdmin.png" alt="logo" class="logo"><!--colocar o link da home aqui usando js-->
+            <nav class="links-admin">
+                <img src="/img/logoAdmin.png" alt="logo" class="logo">
+                <link rel="stylesheet" href="/css/admin.css">
             </nav>        
-        </header>
+        </header>       
+
         {% block content %}
 
         {% endblock %}
