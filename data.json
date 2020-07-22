@@ -1,0 +1,57 @@
+{
+  "recipes": [
+    {
+      "img_recipe_url": "http://google.com",
+      "ingredients": [
+        "jhjh",
+        "jhjh",
+        ""
+      ],
+      "preration_mode": "testando",
+      "aditional": "teste",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "img_recipe_url": "http://google.com",
+      "ingredients": [
+        "yyyyyyy"
+      ],
+      "preration_mode": "gdfsgsfgs",
+      "aditional": "adfadfads"
+    },
+    {
+      "id": 3,
+      "img_recipe_url": "http://google.com",
+      "ingredients": [
+        "jhjh"
+      ],
+      "preration_mode": "gfsdgsgdsgf",
+      "aditional": "dfadfa"
+    },
+    {
+      "id": 4,
+      "img_recipe_url": "https://unsplash.com/photos/PkUscPNxGX8",
+      "title": "Hambúrguer",
+      "ingredients": [
+        "bread",
+        "chease",
+        ""
+      ],
+      "preration_mode": "bread, chease",
+      "aditional": "Delicius Hambúrguer"
+    },
+    {
+      "id": 5,
+      "img_recipe_url": "https://unsplash.com/photos/PkUscPNxGX8",
+      "title": "Hamburguer",
+      "author": "Erika Perciliano",
+      "ingredients": [
+        "fdasafads",
+        "fdafafas"
+      ],
+      "preration_mode": "dfadsad",
+      "aditional": "dafdfadf"
+    }
+  ]
+}

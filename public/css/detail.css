@@ -1,0 +1,75 @@
+.avatar {
+    width:940px;
+    height:280px;
+    margin-top: 15px; 
+    margin-left: 230px;
+    opacity: 100%;
+    border-radius: 15px;
+}
+
+h4 {
+    font-family: Roboto-Bold;
+    color:#3e0a22;
+    opacity: 100%;
+    margin-top: 133px;
+    margin-left: 230px;
+    width: 302px;
+    height: 28px;
+    font-size: 24px;
+}
+
+.by {
+    font-family: Roboto-Bold;
+    font-size: 24px;
+    margin-top: 18px;
+    margin-left: 650px;
+    width: 198px;
+    height: 28px;
+    opacity: 100%;
+    color: #826b6b;
+
+}
+.author_name {
+    margin-top: -40px;
+    margin-left: 680px;
+    position: absolute;
+    width: 134px;
+    height: 19px;
+    opacity: 100%;
+    font-size: 16px;
+    color: #727373;
+}
+
+.details {
+    font-family: Roboto-Regular;
+    margin-left: 230px;
+    margin-top: 3px;
+    width: 940px;
+    height: 196px;
+    color: #444444;
+    opacity: 100%;
+    font-size: 18px;
+
+}
+
+.method {
+    font-family: Roboto-Bold;
+    margin-top: 0px;
+    margin-left: 230px;
+    font-size: 24px;
+    width: 401px;
+    height: 59px;
+    color: #826b6b;
+    opacity: 100%;
+}
+
+.method_preparation {
+    font-family: Roboto-Regular;
+    margin-left: 230px;
+    margin-top: -23px;
+    width: 940px;
+    height: 196px;
+    color: #444444;
+    opacity: 100%;
+    font-size: 18px;
+}

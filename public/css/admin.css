@@ -357,5 +357,200 @@ footer p {
 /* === CREATE === */
 
 .title {
-    
+    font-family: Roboto-Bold;
+    margin-top: 133px;
+    margin-left: 230px;
+    width: 165px;
+    height: 28px;
+    color: #826b6b;
+    opacity: 100%;
+    font-size: 24px;
+}
+
+.save {
+    margin-top: -50px;
+    margin-left: 1031px;
+    position: absolute;
+    width: 139px;
+    height: 37px;
+    opacity: 100%;
+    border-radius: 4px;
+    background: #3e0a22;
+    color: #FFF;
+    border: 1px solid #3d094e;
+}
+
+.save:hover {
+    background: #7b0863;
+}
+
+.dish {
+    margin-top: 20px;
+    margin-left: 230px;
+    position: absolute;
+    width: 134px;
+    height: 19px;
+    opacity: 100%;
+    font-size: 16px;
+    color: #727373;
+}
+
+p.image {
+    margin-top: 20px;
+    margin-left: 230px;
+    position: absolute;
+    width: 134px;
+    height: 19px;
+    opacity: 100%;
+    font-size: 16px;
+    color: #727373;
+}
+
+input.img_recipe_url {
+    margin-top: 50px;
+    margin-left: 230px;
+    position: absolute;
+    width: 940px;
+    height: 49px;
+    opacity: 100%;
+    font-size: 16px;
+    color: #727373;
+    border: 1px solid #e88e8e;
+    border-radius: 4px;
+    background: #d5cae4;
+}
+
+.ingredient {
+    font-family: Roboto-Bold;
+    margin-top: 250px;
+    margin-left: 230px;
+    font-size: 16px;
+    width: 91px;
+    height: 19px;
+    color: #727373;
+    opacity: 100%;
+}
+
+.ingredient_text {
+    margin-top: 120px;
+    margin-left: 230px;
+    position: absolute;
+    width: 940px;
+    opacity: 100%;
+    border-radius: 4px;
+    height: 49px;
+    border: 1px solid #e88e8e;
+    background: #d5cae4;
+}
+
+.new_igredient {
+    color: #de9898;
+    margin-top: 200px;
+    height: 19px;
+    margin-left: 200px;
+    margin-left: 230px;
+    opacity: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    background: #e4c8e2;
+    border: 1px solid #e4c8e2;
+}
+
+
+.new_igredient:hover{
+    color: lightsalmon;
+}
+
+.preparation {
+    font-family: Roboto-Bold;
+    color: #727373;
+    margin-top: 30px;
+    margin-left: 230px;
+    width: 123px;
+    height: 19px;
+    opacity: 100%;
+    font-size: 16px;
+}
+
+.preration_mode {
+    margin-top: -10px;
+    margin-left: 230px;
+    position: absolute;
+    width: 940px;
+    opacity: 100%;
+    border-radius: 4px;
+    height: 49px;
+    border: 1px solid #e88e8e;
+    background: #d5cae4;
+}
+
+.new_step {
+    font-family: Roboto-Bold;
+    color: #de9898;
+    margin-top: 61px;
+    margin-left: 230px;
+    width: 153px;
+    height: 19px;
+    opacity: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.new_step:hover{
+    color: lightsalmon;
+}
+
+.aditional {
+    font-family: Roboto-Bold;
+    color: #727373;
+    margin-top: 250px;
+    margin-left: 230px;
+    width: 169px;
+    height: 19px;
+    opacity: 100%;
+    font-size: 16px;
+}
+
+#aditional {
+    background: #d5cae4;
+    border: 1px solid #e88e8e;
+    margin-top: 0px !important;
+    margin-left: 230px !important;
+    width: 940px;
+}
+
+.name_title{
+    margin-top: 45px;
+    margin-left: 230px;
+    position: absolute;
+    width: 940px;
+    opacity: 100%;
+    border-radius: 4px;
+    height: 49px;
+    border: 1px solid #e88e8e;
+    background: #d5cae4;
+}
+
+.author {
+    margin-top: 120px;
+    margin-left: 230px;
+    position: absolute;
+    width: 134px;
+    height: 19px;
+    opacity: 100%;
+    font-size: 16px;
+    color: #727373;
+
+}
+
+.name_author {
+    margin-top: 150px;
+    margin-left: 230px;
+    position: absolute;
+    width: 940px;
+    opacity: 100%;
+    border-radius: 4px;
+    height: 49px;
+    border: 1px solid #e88e8e;
+    background: #d5cae4;
 }

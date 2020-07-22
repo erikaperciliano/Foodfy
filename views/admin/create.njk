@@ -1,19 +1,51 @@
 {% extends "admin/layout.njk" %}
+<head>
+    {% block head %}
+        <title>Create</title>
+        <link rel="stylesheet" href="/css/admin.css">
+    {% endblock %}
+
+       
+</head>
 
 {% block content %}
-    <form class="card" method="POST" action="/admin">
-        <section class="avatar" style="background: url(https://source.unsplash.com/collection/3621148/500x500) no-repeat center center / cover"></section>
+    <form class="card" method="POST" action="/admin/recipes">
         <section class="details">
             <h3 class="title">Creating recipe</h3>
-            <div class="item"> 
-                <div>Image of recipe</div>
-                <div>
-                    <input type="url" name="img_recipe_url" id="">
-                </div>
-            </div>
-            
-
+            <button type="submit" class="save">Save recipes</button>
         </section>
-        
+        <div class="item"> 
+            <p class="image">Image of recipe</p>
+            <input type="url" name="img_recipe_url" class="img_recipe_url">
+        </div>
+        <div id="ingredients">
+            <div class="item_igredient">
+                <!--<p class="ingredient">Ingredients</p>-->
+                <input type="text" name="ingredients[]" value="" class="ingredient_text">
+            </div> 
+        </div>
+        <p class="new_igredient">add new ingredient</p>
+        <div class="item"> 
+            <p  class="preparation">Preparation mode</p>
+            <input type="text" name="preration_mode" class="preration_mode">
+        </div>
+        <div class="item"> 
+            <p class="new_step">add new step</p>
+        </div>
+        <div class="item"> 
+            <p  class="dish">Name of dish</p>
+            <input type="text" name="title" class="name_title">
+        </div>
+
+         <div class="item"> 
+            <p  class="author">by</p>
+            <input type="text" name="author" class="name_author">
+        </div>
+        <div class="item"> 
+            <p class="aditional">Additional Information</p>
+            <textarea name="aditional" id="aditional"  rows="10"></textarea>
+        </div>
+
     </form>
+    <script src="/adm.js"></script>
 {% endblock content %}
