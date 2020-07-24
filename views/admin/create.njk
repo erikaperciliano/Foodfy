@@ -18,20 +18,25 @@
             <p class="image">Image of recipe</p>
             <input type="url" name="img_recipe_url" class="img_recipe_url">
         </div>
+         
         <div id="ingredients">
+        <p class="header_ingredient">Ingredients</p>
             <div class="item_igredient">
-                <!--<p class="ingredient">Ingredients</p>-->
-                <input type="text" name="ingredients[]" value="" class="ingredient_text">
+               
+                <input type="text"  class="ingredient_text" name="ingredients[]" value="" placeholder="igredient">
             </div> 
         </div>
-        <p class="new_igredient">add new ingredient</p>
-        <div class="item"> 
-            <p  class="preparation">Preparation mode</p>
-            <input type="text" name="preration_mode" class="preration_mode">
+         
+        <button type="button" class="new_igredient">add new ingredient</button>
+        
+        <div id="preparation_mode">
+            <div class="item"> 
+                <p  class="preparation">Preparation mode</p>
+                <input type="text" name="preration_mode" class="preration_mode">
+            </div>
         </div>
-        <div class="item"> 
-            <p class="new_step">add new step</p>
-        </div>
+        <p type="button" class="new_step">add new step</p>
+
         <div class="item"> 
             <p  class="dish">Name of dish</p>
             <input type="text" name="title" class="name_title">

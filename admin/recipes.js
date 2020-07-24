@@ -63,7 +63,7 @@ exports.show = function(req, res){
     }
         //return res.render('/admin/show'), {recipes: foundRecipes}
         
-          return res.render('admin/show');
+          return res.render('admin/show', {recipes:foundRecipes});
     
 
   

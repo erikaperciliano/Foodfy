@@ -12,22 +12,30 @@
 {% block content %}
     <section>
         <div id="section">
-            <h4>Recipe:TESTE{{recipes.title}}</h4>
-            <section class="avatar" style="background: url(https://source.unsplash.com/collection/239835/500X500) no-repeat  center center / cover"></section>
-            <h2 class="by">by{{recipes.title}}</h2>
-            <p class="author_name">TESTE{{recipes.author}}</p>
+            <h4 class="recipeTitle">Recipe: {{recipes.title}}</h4>
+            <section class="avatar" style="background: url({{recipes.img_recipe_url}}) no-repeat  center center / cover"></section>
+            <h2 class="by"> by {{recipes.title}}</h2>
+            <p class="author_name">{{recipes.author}}</p>
 
             <h2 class="ingredients">Ingredients</h2>
             <ul class='details'>
-                <li>{{recipes.ingredients}}teste</li>
-                <li>{{recipes.ingredients}}teste</li>
+                {%for ingredient in recipes.ingredients%}
+                <li>{{ingredient}}</li>
+                {%endfor%}
             </ul>
 
             <h1 class="method">Method of Preparation</h1>
-            <ul class='method_preparation'>
-                    <li>teste{{recipes.preration_mode}}</li>
-                    <li>teste{{recipes.preration_mode}}</li>
-            </ul>
+            <div class='method_preparation'>
+                <p>{{recipes.preration_mode}}</p>
+            </div>
+            <!--<ul class='method_preparation'>
+                {%for preparation in recipes.preration_mode%}
+                    <li>{{preration}}</li>
+                {%endfor%}
+            </ul>-->
+
+            <h1 class="add_information">Additional Information</h1>
+            <p class="information">{{recipes.aditional}}</p>
         </div>
      </section>
 {% endblock %}

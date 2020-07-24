@@ -29,9 +29,10 @@ h4 {
     color: #826b6b;
 
 }
+
 .author_name {
-    margin-top: -40px;
-    margin-left: 680px;
+    margin-top: -10px;
+    margin-left: 640px;
     position: absolute;
     width: 134px;
     height: 19px;
@@ -64,6 +65,28 @@ h4 {
 }
 
 .method_preparation {
+    font-family: Roboto-Regular;
+    margin-left: 230px;
+    margin-top: -23px;
+    width: 940px;
+    height: 196px;
+    color: #444444;
+    opacity: 100%;
+    font-size: 18px;
+}
+
+h1.add_information {
+    font-family: Roboto-Bold;
+    margin-top: 0px;
+    margin-left: 230px;
+    font-size: 24px;
+    width: 401px;
+    height: 59px;
+    color: #826b6b;
+    opacity: 100%;
+}
+
+.information {
     font-family: Roboto-Regular;
     margin-left: 230px;
     margin-top: -23px;

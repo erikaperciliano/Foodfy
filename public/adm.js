@@ -11,14 +11,11 @@ function addIngredient() {
     // Deixa o valor do input vazio
     newField.children[0].value = "";
     ingredients.appendChild(newField);
+    ingredients.value = "";
   }
   
   document
   .querySelector(".new_igredient")
   .addEventListener("click", addIngredient)
 
-/* document.querySelector(".new_igredient").addEventListener("click", function(){
-    alert('Funcionando!');
-  });
-*/
-
+ 
