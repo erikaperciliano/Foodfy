@@ -1,0 +1,28 @@
+{% extends "admin/layout.njk" %}
+<head>
+    {% block head %}
+        <title>Create</title>
+        <link rel="stylesheet" href="/css/admin.css">
+    {% endblock %}
+
+       
+</head>
+
+{% block content %}
+<div class="card">
+    <form  method="POST" action="/admin/recipes?_method=PUT">
+        <section class="details">
+            <h3 class="title">Edit recipe</h3>
+
+            {%include 'admin/fields.njk' %}
+            <input type="hidden" name="id" value={{recipes.id}}>
+    </form>
+
+    <form action="/admin/recipes?_method=DELETE" method="POST">
+        <input type="hidden" name="id" value={{recipes.id}}>
+        <button type="submit" class="delete">Delete</button>
+    </form>
+</div>
+   
+    <script src="/adm.js"></script>
+{% endblock content %}

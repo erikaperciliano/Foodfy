@@ -13,9 +13,10 @@
     <section>
         <div id="section">
             <h4 class="recipeTitle">Recipe: {{recipes.title}}</h4>
+            <a href="/admin/recipes/{{recipes.id}}/edit" class="edit">Edit</a>
             <section class="avatar" style="background: url({{recipes.img_recipe_url}}) no-repeat  center center / cover"></section>
-            <h2 class="by"> by {{recipes.title}}</h2>
-            <p class="author_name">{{recipes.author}}</p>
+            <h2 class="by"> {{recipes.title}}</h2>
+            <p class="author_name"> by {{recipes.author}}</p>
 
             <h2 class="ingredients">Ingredients</h2>
             <ul class='details'>
@@ -25,14 +26,14 @@
             </ul>
 
             <h1 class="method">Method of Preparation</h1>
-            <div class='method_preparation'>
+            <!--<div class='method_preparation'>
                 <p>{{recipes.preration_mode}}</p>
-            </div>
-            <!--<ul class='method_preparation'>
-                {%for preparation in recipes.preration_mode%}
-                    <li>{{preration}}</li>
+            </div>-->
+            <ul class='method_preparation'>
+                {%for ingredient in recipes.ingredients%}
+                    <li>{{ingredient}}</li>
                 {%endfor%}
-            </ul>-->
+            </ul>
 
             <h1 class="add_information">Additional Information</h1>
             <p class="information">{{recipes.aditional}}</p>

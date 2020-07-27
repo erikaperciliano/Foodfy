@@ -1,0 +1,36 @@
+<button type="submit" class="save">Save recipes</button>
+</section>
+<div class="item"> 
+    <p class="image">Image of recipe</p>
+    <input type="url" class="img_recipe_url" name="img_recipe_url" value="{{recipes.img_recipe_url}}">
+</div>
+    <!--verificar-->
+    <div id="ingredients">
+    <p  class="item_ingredient">Ingredients</p>
+    <div class="item_ingredient"> 
+        <input type="text" class="ingredient_text" name="ingredients[]" placeholder="Ingredient" value="{{recipes.ingredients}}">
+    </div>
+
+<button type="button" class="new_ingredient">add new ingredient</button>
+
+<div id="preparation_mode">
+    <p  class="preparation">Preparation mode</p>
+    <div class="preparation"> 
+        <input type="text" class="preparation_mode" name="preration_mode[]" placeholder="Preparation mode" value="{{recipes.preration_mode}}">
+    </div>
+</div>
+<button type="button" class="new_step">add new step</button>
+
+<div class="item"> 
+    <p  class="dish">Name of dish</p>
+    <input type="text" name="title" class="name_title" value="{{recipes.title}}">
+</div>
+
+    <div class="item"> 
+    <p  class="author">by</p>
+    <input type="text" name="author" class="name_author" value="{{recipes.author}}">
+</div>
+<div class="item"> 
+    <p class="aditional">Additional Information</p>
+    <textarea name="aditional" id="aditional"  rows="10" value="{{recipes.aditional}}"></textarea>
+</div>
