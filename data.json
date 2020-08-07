@@ -16,7 +16,7 @@
     {
       "id": 3,
       "img_recipe_url": "https://images.unsplash.com/photo-1574619678773-84674a54cb11?ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80",
-      "title": "Sandwich",
+      "title": "cf",
       "author": "John Lennon",
       "ingredients": [
         "Potato",
@@ -35,7 +35,7 @@
       "id": "4",
       "img_recipe_url": "https://images.unsplash.com/photo-1550796366-e35386bad225?ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80",
       "title": "Death",
-      "author": "Raquel Ferreira",
+      "author": "Raquel",
       "ingredients": [
         "Tomato,Meat,Egg"
       ],
@@ -43,6 +43,21 @@
         "Put the tomato,Put the egg,Put meat"
       ],
       "aditional": ""
+    },
+    {
+      "id": 4,
+      "img_recipe_url": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      "title": "Salad",
+      "author": "Augusto",
+      "ingredients": [
+        "Onions",
+        ""
+      ],
+      "preration_mode": [
+        "Put the Potatoes",
+        "Put the Onions"
+      ],
+      "aditional": "dfafdafdadfasdfsa"
     }
   ]
 }

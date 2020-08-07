@@ -6,9 +6,9 @@
             <h1>Manage revenue</h1>
             <aside class="burguer-admin">
             {%for recipe in recipes%}
-                <img src="/img/burger.png" alt="burguer" class="burguer-admin">
-                <p>Triple bacon burger</p>
-                <p>by Jorge Relato</p>
+                <img src={{recipe.img_recipe_url}} alt="burguer" class={{recipe.title}}>
+                <p class={{recipe.title}}>{{recipe.title}}</p>
+                <p class={{recipe.author}}> by {{recipe.author}}</p>
                 <span class="see-burguer">View</span>
             {%endfor%}
             </aside>
