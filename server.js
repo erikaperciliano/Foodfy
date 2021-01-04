@@ -8,9 +8,9 @@ const server = express();
 
 
 
-server.use(express.urlencoded({extended:true})) // responsible for running req.body
+server.use(express.urlencoded({extended:true})) 
 server.use(express.static('public'));
-server.use(methodOverride('_method'));//preciso sobrescrever antes de mandar para rota
+server.use(methodOverride('_method'));// sobrescreve antes de mandar para rota
 server.use(routes);
 
 
